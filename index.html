@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sai Manohari Godavarty – CS Engineering Undergraduate | Backend Developer | AI/ML Enthusiast">
+    <title>Sai Manohari Godavarty | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-brand">
+                <span class="brand-letter">S</span><span class="brand-dot">.</span><span class="brand-letter">M</span><span class="brand-dot">.</span><span class="brand-letter">G</span><span class="brand-dot">.</span>
+            </a>
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span> Open to Opportunities
+                </div>
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name-line">Sai Manohari<br>Godavarty</span>
+                </h1>
+                <p class="hero-role">Computer Science Engineering Undergraduate</p>
+                <p class="hero-summary">Backend developer &amp; AI/ML enthusiast with hands-on experience in RESTful APIs, database systems, and intelligent software solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="mailto:saimanoharigodavarty06@gmail.com" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        <span>Say Hello</span>
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/saimanoharigodavarty" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/saimanoharigodavarty/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">portfolio.py</span>
+                    </div>
+                    <div class="terminal-body">
+                        <pre><code><span class="kw">class</span> <span class="cls">Developer</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.name  = <span class="str">"Sai Manohari"</span>
+        <span class="param">self</span>.role  = <span class="str">"CS Undergrad"</span>
+        <span class="param">self</span>.cgpa  = <span class="num">9.5</span>
+        <span class="param">self</span>.stack = [
+            <span class="str">"Python"</span>, <span class="str">"Java"</span>,
+            <span class="str">"FastAPI"</span>, <span class="str">"PostgreSQL"</span>,
+            <span class="str">"Firebase"</span>, <span class="str">"LLMs"</span>
+        ]
+
+    <span class="kw">def</span> <span class="fn">motto</span>(<span class="param">self</span>):
+        <span class="kw">return</span> <span class="str">"Build. Learn. Repeat."</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;about&gt;</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">Computer Science Engineering undergraduate with practical experience in backend development, databases, and AI-driven systems.</p>
+                    <p>Hands-on experience in designing RESTful APIs, developing database-backed applications, and building intelligent software solutions. I demonstrate strong analytical thinking, problem-solving ability, and a proactive learning mindset.</p>
+                    <p>Currently seeking opportunities to apply my technical skills in real-world software and AI projects.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-university"></i></div>
+                        <div class="info-details">
+                            <h4>KL University, Hyderabad</h4>
+                            <p>B.Tech in Computer Science Engineering</p>
+                            <span class="info-meta">2024 – 2028 &bull; CGPA: 9.5</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-school"></i></div>
+                        <div class="info-details">
+                            <h4>Rose Mary Convent School, Bathinda</h4>
+                            <p>Intermediate Education</p>
+                            <span class="info-meta">2022 – 2024 &bull; 66%</span>
+                        </div>
+                    </div>
+                    <div class="info-card highlight-card">
+                        <div class="info-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="info-details">
+                            <h4>Certifications</h4>
+                            <ul class="cert-list">
+                                <li>AI/ML Virtual Internship – Infosys Springboard</li>
+                                <li>MongoDB Associate Developer</li>
+                                <li>Problem Solving Through Programming in C</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-language"></i></div>
+                        <div class="info-details">
+                            <h4>Languages</h4>
+                            <p>English, Hindi, Telugu, Punjabi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;experience&gt;</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header-row">
+                            <div>
+                                <h3 class="timeline-role">AI/ML Virtual Intern</h3>
+                                <p class="timeline-company">Infosys Springboard</p>
+                            </div>
+                            <span class="timeline-date">Dec 2025 – Present</span>
+                        </div>
+                        <ul class="timeline-points">
+                            <li>Developed backend components for an AI-powered stock screening and advisory platform</li>
+                            <li>Implemented LLM-based natural language query interpretation to enable secure and efficient data retrieval</li>
+                            <li>Designed RESTful APIs integrated with PostgreSQL databases supporting authentication</li>
+                            <li>Applied core software engineering principles to improve scalability, maintainability, and system reliability</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Python</span><span>PostgreSQL</span><span>REST APIs</span><span>LLMs</span><span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header-row">
+                            <div>
+                                <h3 class="timeline-role">Open-Source Contributor</h3>
+                                <p class="timeline-company">freeCodeCamp</p>
+                            </div>
+                            <span class="timeline-date">Ongoing</span>
+                        </div>
+                        <ul class="timeline-points">
+                            <li>Active contributor to the freeCodeCamp open-source community</li>
+                            <li>Submitted pull requests to improve documentation and code quality</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Open Source</span><span>Git</span><span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;projects&gt;</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Assistly -->
+                <div class="project-card featured">
+                    <div class="project-card-glow"></div>
+                    <div class="project-number">01</div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                        <div class="project-links-row">
+                            <a href="https://github.com/nikhilkumarpanigrahi/ASSISTLY" target="_blank" rel="noopener" title="Source Code"><i class="fab fa-github"></i></a>
+                            <a href="https://assistly-oojv.onrender.com" target="_blank" rel="noopener" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">ASSISTLY</h3>
+                    <p class="project-subtitle">AI Assistant Platform</p>
+                    <p class="project-desc">A secure full-stack application for community-based access management with role-based authentication and real-time data capabilities.</p>
+                    <ul class="project-highlights">
+                        <li>Role-based authentication for <strong>3 user types</strong></li>
+                        <li>Real-time data sync handling <strong>100+ updates</strong></li>
+                        <li>Complete data segregation via Firestore security rules</li>
+                        <li>UI responsiveness improved by <strong>~30%</strong></li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>React</span><span>RBAC</span><span>Firebase</span><span>LLMs</span><span>Firestore</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Stock Screener -->
+                <div class="project-card">
+                    <div class="project-card-glow"></div>
+                    <div class="project-number">02</div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="project-links-row">
+                            <a href="https://github.com/saimanoharigodavarty" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Stock Screener</h3>
+                    <p class="project-subtitle">AI-Powered Advisory Platform</p>
+                    <p class="project-desc">Intelligent mobile stock screening platform with natural language query handling and advanced financial analytics.</p>
+                    <ul class="project-highlights">
+                        <li>LLM-based natural language query interpretation</li>
+                        <li>Advanced filtering via financial ratios &amp; growth metrics</li>
+                        <li>Portfolio tracking &amp; alerting system</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Python</span><span>PostgreSQL</span><span>REST APIs</span><span>LLMs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;skills&gt;</span>
+                <h2 class="section-title">Technical Arsenal</h2>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-pills">
+                        <span class="pill">Python</span>
+                        <span class="pill">Java</span>
+                        <span class="pill">C</span>
+                        <span class="pill">C++</span>
+                        <span class="pill">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Core CS</h3>
+                    <div class="skill-pills">
+                        <span class="pill">Data Structures</span>
+                        <span class="pill">Algorithms</span>
+                        <span class="pill">OOP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-pills">
+                        <span class="pill">RESTful APIs</span>
+                        <span class="pill">FastAPI</span>
+                        <span class="pill">Flask</span>
+                        <span class="pill">JWT Auth</span>
+                        <span class="pill">JSON</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-pills">
+                        <span class="pill">PostgreSQL</span>
+                        <span class="pill">SQL</span>
+                        <span class="pill">Relational DBs</span>
+                        <span class="pill">CRUD Operations</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-microchip"></i> AI / NLP</h3>
+                    <div class="skill-pills">
+                        <span class="pill">Machine Learning</span>
+                        <span class="pill">NLP</span>
+                        <span class="pill">LLM Integration</span>
+                        <span class="pill">Information Retrieval</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-search"></i> Search</h3>
+                    <div class="skill-pills">
+                        <span class="pill">Vector Embeddings</span>
+                        <span class="pill">Semantic Search</span>
+                        <span class="pill">pgvector</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-wrench"></i> Tools</h3>
+                    <div class="skill-pills">
+                        <span class="pill">Git</span>
+                        <span class="pill">GitHub</span>
+                        <span class="pill">VS Code</span>
+                        <span class="pill">Power BI</span>
+                        <span class="pill">Firebase</span>
+                        <span class="pill">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;connect&gt;</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-desc">Open to collaborations, internships, and exciting opportunities</p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:saimanoharigodavarty06@gmail.com" class="contact-tile">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>saimanoharigodavarty06@gmail.com</p>
+                </a>
+                <a href="https://github.com/saimanoharigodavarty" target="_blank" rel="noopener" class="contact-tile">
+                    <i class="fab fa-github"></i>
+                    <h4>GitHub</h4>
+                    <p>saimanoharigodavarty</p>
+                </a>
+                <a href="https://www.linkedin.com/in/saimanoharigodavarty/" target="_blank" rel="noopener" class="contact-tile">
+                    <i class="fab fa-linkedin-in"></i>
+                    <h4>LinkedIn</h4>
+                    <p>saimanoharigodavarty</p>
+                </a>
+                <a href="tel:+916280418849" class="contact-tile">
+                    <i class="fas fa-phone"></i>
+                    <h4>Phone</h4>
+                    <p>+91-6280418849</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="footer-brand">
+                <span class="brand-letter">S</span><span class="brand-dot">.</span><span class="brand-letter">M</span><span class="brand-dot">.</span><span class="brand-letter">G</span><span class="brand-dot">.</span>
+            </a>
+            <p class="footer-copy">&copy; 2026 Sai Manohari Godavarty &mdash; Built with dedication</p>
+            <div class="footer-links">
+                <a href="https://github.com/saimanoharigodavarty" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/saimanoharigodavarty/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
